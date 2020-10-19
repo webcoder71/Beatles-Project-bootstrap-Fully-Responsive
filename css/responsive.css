@@ -1,0 +1,413 @@
+/* // Extra small(phone) devices (portrait phones, less than 576px) */
+@media (min-width: 100px) and (max-width: 319px) {
+    h1 {
+        font-size: 26px;
+
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+
+    .common_heading {
+        padding-top: 40px;
+    }
+
+    .upper_header_part .upper_header_content p {
+        padding-bottom: 10px;
+    }
+
+
+    .main_menu .navbar-toggler {
+        border: 1px solid #555555;
+    }
+
+    .main_menu .navbar-nav {
+        text-align: center;
+        background: transparent;
+    }
+
+    .banner_inner {
+        min-height: 365px;
+
+    }
+
+    .banner_inner .banner_content {
+        padding: 40px 0px;
+
+    }
+
+    .banner_inner .banner_content h1 {
+
+        padding-bottom: 18px;
+    }
+
+    .banner_inner .banner_content p {
+        font-size: 12px;
+        padding-bottom: 25px;
+        line-height: 28px;
+    }
+
+
+    .our_service .common_heading {
+
+        padding-top: 50px;
+    }
+
+    .service {
+        height: 280px;
+        margin-bottom: 80px;
+    }
+
+    .our_service .common_heading_content {
+        padding-bottom: 65px;
+    }
+
+
+
+    .team_part_icon {
+        height: 150px;
+        width: 150px;
+        background: #f1f1f1;
+        border-radius: 50%;
+        margin: 0 auto;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.4s;
+    }
+
+    .team_image {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-bottom: 35px;
+    }
+
+    .our_team {
+        padding-bottom: 30px
+    }
+
+    .team_image img {
+        height: 300px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .team_image_overlay ul {
+        margin-top: -6px;
+
+    }
+
+    .team_image_overlay ul li {
+        padding: 3px;
+        margin: -18px;
+    }
+
+    .team_image_overlay ul li a {
+        padding: 0px;
+    }
+
+    .our_portfolio .common_heading {
+        padding-top: 0px;
+    }
+
+
+
+    /* portfolio */
+    .portfolio_galary {
+        margin-bottom: 20px;
+    }
+
+    .testimonial_part .common_heading_content {
+        padding-bottom: 0px;
+    }
+
+    .testimonial {
+        padding-top: 40px;
+    }
+
+    .top_footer_imptn_link ul {
+        margin-right: 80px;
+    }
+
+    .top_footer_flickr_photo {
+        margin-bottom: 15px;
+    }
+
+    .team_image img {}
+
+}
+
+/* // No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 320px) and (max-width: 575px) {
+    h1 {
+        font-size: 26px;
+
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+
+    .common_heading {
+        padding-top: 40px;
+    }
+
+    .upper_header_part .upper_header_content p {
+        padding-bottom: 10px;
+    }
+
+
+    .main_menu .navbar-toggler {
+        border: 1px solid #555555;
+    }
+
+    .main_menu .navbar-nav {
+        text-align: center;
+        background: transparent;
+    }
+
+    .banner_inner {
+        min-height: 365px;
+
+    }
+
+    .banner_inner .banner_content {
+        padding: 40px 0px;
+
+    }
+
+    .banner_inner .banner_content h1 {
+
+        padding-bottom: 18px;
+    }
+
+    .banner_inner .banner_content p {
+        font-size: 12px;
+        padding-bottom: 25px;
+        line-height: 28px;
+    }
+
+
+    .our_service .common_heading {
+
+        padding-top: 50px;
+    }
+
+    .service {
+        height: 280px;
+        margin-bottom: 80px;
+    }
+
+    .our_service .common_heading_content {
+        padding-bottom: 65px;
+    }
+
+    .our_portfolio .common_heading {
+        padding-top: 0px;
+    }
+
+
+    .team_part_icon {
+        height: 150px;
+        width: 150px;
+        background: #f1f1f1;
+        border-radius: 50%;
+        margin: 0 auto;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.4s;
+    }
+
+    .team_image {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-bottom: 35px;
+    }
+
+    .our_team {
+        padding-bottom: 30px
+    }
+
+    .team_image img {
+        height: 300px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .team_image_overlay ul {
+        margin-top: -6px;
+
+    }
+
+    .team_image_overlay ul li {
+        padding: 3px;
+        margin-top: -18px;
+    }
+
+    .team_image_overlay ul li a {
+        padding: 0px;
+    }
+
+    /* portfolio */
+    .portfolio_galary {
+        margin-bottom: 20px;
+    }
+
+    .testimonial_part .common_heading_content {
+        padding-bottom: 0px;
+    }
+
+    .testimonial {
+        padding-top: 40px;
+    }
+
+    .top_footer_imptn_link ul {
+        margin-right: 80px;
+    }
+
+    .top_footer_flickr_photo {
+        margin-bottom: 15px;
+    }
+
+
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .service {
+
+        height: 260px;
+        margin-bottom: 70px;
+    }
+
+    .our_portfolio .common_heading {
+        padding-top: 0px;
+    }
+
+    .galary_img_overlay a {
+        left: 45%;
+
+    }
+
+    /* portfolio */
+    .portfolio_galary {
+        margin-bottom: 20px;
+    }
+
+     .our_team {
+        padding-bottom: 30px
+    }
+
+    .team_image img {
+        height: 300px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .team_image_overlay ul {
+        margin-top: 30px;
+
+    }
+
+    .team_image_overlay ul li {
+        padding: 5px;
+    }
+
+    .team_image_overlay ul li a {
+        padding: 10px;
+
+    }
+
+    .service_content {
+        padding-top: 100px;
+    }
+
+
+    .testimonial_part .common_hea;
+
+    ding_content {
+        padding-bottom: 0px;
+    }
+
+    .testimonial {
+        padding-top: 40px;
+    }
+
+
+    .top_footer_imptn_link ul {
+        margin-right: 80px;
+    }
+
+    .top_footer_flickr_photo {
+        margin-bottom: 15px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .our_team {
+        padding-bottom: 30px
+    }
+
+    .team_image img {
+        height: 300px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .team_image_overlay ul {
+        margin-top: 30px;
+
+    }
+
+    .team_image_overlay ul li {
+        padding: 5px;
+    }
+
+    .team_image_overlay ul li a {
+        padding: 10px;
+
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .our_team {
+        padding-bottom: 30px
+    }
+
+    .team_image img {
+        height: 300px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .team_image_overlay ul {
+        margin-top: 30px;
+
+    }
+
+    .team_image_overlay ul li {
+        padding: 5px;
+    }
+
+    .team_image_overlay ul li a {
+        padding: 10px;
+
+    }
+}
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {}
